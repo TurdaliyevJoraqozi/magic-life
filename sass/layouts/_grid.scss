@@ -1,0 +1,19 @@
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+  background-color: #eee;
+
+  &:not(:last-child) {
+    margin-bottom: $space-vertical;
+  }
+  @include clearfix;
+  .col-1-of-2 {
+    background-color: crimson;
+    float: left;
+    height: 5rem;
+    &:not(:last-child) {
+      margin-right: $space-horizontal;
+    }
+    width: calc((100%-#{$space-horizontal}) / 2);
+  }
+}

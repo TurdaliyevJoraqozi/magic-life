@@ -111,7 +111,7 @@ html {
 
 .header {
   height: 95vh;
-  background-color: #28b485;
+  background-color: #cbffee;
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
@@ -163,6 +163,29 @@ html {
   margin-top: 6rem;
   border: 0.1rem solid crimson;
   position: relative;
+}
+
+.row {
+  max-width: 110rem;
+  margin: 0 auto;
+  background-color: #eee;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row .col-1-of-2 {
+  background-color: crimson;
+  float: left;
+  height: 5rem;
+  width: calc((100%-6rem) / 2);
+}
+.row .col-1-of-2:not(:last-child) {
+  margin-right: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

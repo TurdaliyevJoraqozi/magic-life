@@ -11,3 +11,10 @@
   border: 0.1rem solid crimson;
   position: relative;
 }
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
