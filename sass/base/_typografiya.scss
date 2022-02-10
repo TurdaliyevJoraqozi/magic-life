@@ -1,0 +1,19 @@
+.header__hero--h2 {
+  animation-name: h2_animation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  color: #fff;
+  font-size: 6rem;
+  letter-spacing: 2rem;
+  font-weight: 400;
+}
+.header__hero--h3 {
+  animation-name: h3_animation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  font-weight: 400;
+  margin: 2.5rem 0;
+}

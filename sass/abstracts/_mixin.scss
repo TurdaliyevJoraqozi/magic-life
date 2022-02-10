@@ -1,0 +1,13 @@
+@mixin btn {
+  animation-name: button_animation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  text-decoration: none;
+  color: #555;
+  background-color: #fff;
+  padding: 1.8rem 4rem;
+  border-radius: 4rem;
+  margin-top: 6rem;
+  border: 0.1rem solid crimson;
+  position: relative;
+}

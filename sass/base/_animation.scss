@@ -1,0 +1,80 @@
+@keyframes h2_animation {
+  0% {
+    transform: translateX(-2.2rem);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(2rem);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes h3_animation {
+  0% {
+    transform: translateX(2.2rem);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(-2rem);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes button_animation {
+  0% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+  80% {
+    transform: translateY(-1rem);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes logo_animation {
+  0% {
+    transform: translate(0, 0);
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: translate(0, 0);
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: translate(0, 0);
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logo_color {
+  0% {
+    background-color: crimson;
+    color: #fff;
+  }
+  25% {
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+    border: 1px solid crimson;
+  }
+  100% {
+    background-color: crimson;
+    color: #fff;
+  }
+}
