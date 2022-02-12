@@ -119,7 +119,7 @@ html {
 
 .feature-box__icon {
   font-size: 6rem;
-  background-image: linear-gradient(to right, rgba(226, 171, 21, 0.788), rgba(199, 61, 26, 0.788));
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text; }
@@ -130,7 +130,7 @@ html {
 
 .heading-tertiary,
 .text-box1 {
-  opacity: 0.7; }
+  opacity: 0.8; }
 
 .header {
   height: 95vh;
@@ -138,8 +138,7 @@ html {
   background-image: linear-gradient(#60ecbda9, #bfecddab), url(/images/hero.jpg);
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  margin: 1.6rem; }
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); }
   .header .header__logo--img {
     margin: 3rem;
     width: 10%;
@@ -230,16 +229,18 @@ html {
   padding: 3rem 1rem;
   text-align: center;
   border-radius: 3px;
-  background-color: rgba(240, 248, 255, 0.397);
-  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
-  height: 35rem; }
+  background-color: rgba(240, 248, 255, 0.697);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+  height: 35rem;
+  transition: all 0.5s ease-in-out; }
   .feature-box .heading-tertiary {
     margin: 2rem 0; }
   .feature-box .text-box1 {
     line-height: 1.5;
     margin-top: 3rem; }
   .feature-box:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    transform: translateY(-1.6rem) scale(1.1); }
 
 .cards {
   perspective: 150rem;
@@ -295,12 +296,12 @@ html {
   margin-top: -30vh; }
 
 .section-feature {
-  margin-top: -8rem;
-  background-image: linear-gradient(to right bottom, rgba(97, 223, 97, 0.678), #5ff75f), url(/images/img/hero.jpg);
+  margin-top: -10rem;
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(97, 223, 97, 0.378), rgba(95, 247, 95, 0.507)), url(/images/img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
   transform: skewY(-7deg); }
   .section-feature > * {
     transform: skewY(7deg); }

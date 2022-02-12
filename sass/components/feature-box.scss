@@ -3,9 +3,11 @@
   padding: 3rem 1rem;
   text-align: center;
   border-radius: 3px;
-  background-color: rgba(240, 248, 255, 0.397);
-  box-shadow: 0 1.5rem 3rem rgba(black, 0.2);
+  background-color: rgba(240, 248, 255, 0.697);
+  box-shadow: 0 1.5rem 3rem rgba(black, 0.5);
   height: 35rem;
+  transition: all 0.5s ease-in-out;
+
   .heading-tertiary {
     margin: 2rem 0;
   }
@@ -15,5 +17,6 @@
   }
   &:hover {
     cursor: pointer;
+    transform: translateY(-1.6rem) scale(1.1);
   }
 }
