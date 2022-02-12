@@ -1,0 +1,32 @@
+.cards {
+  perspective: 150rem;
+  position: relative;
+  &__rotate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    font-size: 2rem;
+    transition: all 0.8s;
+    color: #fff;
+    height: 40rem;
+    width: 30rem;
+
+    // &:hover {
+    //   transform: rotateY(180deg);
+    // }
+    &__back {
+      background-color: green;
+    }
+  }
+  &:hover {
+    .cards__rotate__front {
+      transform: rotateY(180deg);
+    }
+    .cards__rotate__back {
+      transform: rotateY(-180deg);
+      backface-visibility: hidden;
+      z-index: 10;
+    }
+  }
+}

@@ -3,3 +3,25 @@
   background-color: $section-backgroud;
   margin-top: -30vh;
 }
+.section-feature {
+  margin-top: -8rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(97, 223, 97, 0.678),
+      rgb(95, 247, 95)
+    ),
+    url(/images/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+.section-tours {
+  margin-top: -2rem;
+  background-color: rgb(213, 255, 255);
+  padding: 25rem 0;
+}
