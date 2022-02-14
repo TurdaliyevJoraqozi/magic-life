@@ -34,3 +34,8 @@
     width: calc(2 * (100% - #{$space-horizontal * 3}) / 4 + $space-horizontal);
   }
 }
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}

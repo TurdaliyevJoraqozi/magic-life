@@ -1,11 +1,13 @@
-@import "abstracts/variable";
-@import "abstracts/mixin";
 @import "base/animation";
+@import "abstracts/variable";
+@import "components/buttons";
+
+@import "abstracts/mixin";
 @import "base/reset";
 @import "base/typografiya";
 @import "layouts/header";
 @import "abstracts/function";
-@import "components/buttons";
+
 @import "components/compositions";
 @import "components/feature-box";
 @import "components/cards.scss";

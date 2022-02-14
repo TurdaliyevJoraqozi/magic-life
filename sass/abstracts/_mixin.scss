@@ -1,4 +1,4 @@
-@mixin btn {
+.header__hero--btn {
   animation-name: button_animation;
   animation-duration: 3s;
   animation-iteration-count: 1;
@@ -8,9 +8,10 @@
   padding: 1.8rem 4rem;
   border-radius: 4rem;
   margin-top: 6rem;
-  border: 0.1rem solid crimson;
+  border: 0.1rem solid rgb(255, 252, 253);
   position: relative;
 }
+
 @mixin clearfix {
   &::after {
     content: "";
