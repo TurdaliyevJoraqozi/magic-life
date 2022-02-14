@@ -11,7 +11,7 @@
       rgba(97, 223, 97, 0.378),
       rgba(95, 247, 95, 0.507)
     ),
-    url(/images/img/hero.jpg);
+    url(/images/img/nat-4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,4 +26,32 @@
   padding: 30rem 10rem 65rem 10rem;
   margin-top: -10rem;
   z-index: -20;
+}
+.section__storage {
+  padding: 15rem 0;
+  // background-color: $color-grey-light-1;
+  position: relative;
+}
+.secton-book {
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary,
+    $color-primary-dark
+  );
+  padding: 15rem 0;
+}
+.book {
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.8) 0%,
+      rgba($color-white, 0.8) 50%,
+      transparent 50%
+    ),
+    url(/images/img/nat-10.jpg);
+  background-size: 100%;
+  height: 50rem;
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
 }

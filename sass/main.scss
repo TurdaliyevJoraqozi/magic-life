@@ -1,7 +1,8 @@
 @import "base/animation";
 @import "abstracts/variable";
 @import "components/buttons";
-
+@import "components/video";
+@import "components/form";
 @import "abstracts/mixin";
 @import "base/reset";
 @import "base/typografiya";
@@ -9,8 +10,11 @@
 @import "abstracts/function";
 
 @import "components/compositions";
+
+@import "components/story";
 @import "components/feature-box";
 @import "components/cards.scss";
 @import "layouts/grid";
+@import "layouts/footer";
 @import "pages/home";
 @import "base/utilities";
